@@ -1,0 +1,13 @@
+:root {
+    --spinner-width: 5px;
+}
+
+/* .spinner {
+    border-top: solid var(--spinner-width) gray;
+    border-left: solid var(--spinner-width) gray;
+    border-bottom: solid var(--spinner-width) gray;
+    border-right: solid var(--spinner-width) white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 999999px;
+} */

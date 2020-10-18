@@ -1,16 +1,19 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/home";
-import HelloPage from "./pages/hello-page";
+import FallbackPage from "./pages/fallback-page";
+import { allPages } from "./routes";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/hello-page" element={<HelloPage />} />
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-    </BrowserRouter>
+    <Suspense fallback={<FallbackPage />}>
+      <BrowserRouter>
+        <Routes>
+          {allPages.map(({ element, path }) => (
+            <Route key={path} path={path} element={element} />
+          ))}
+        </Routes>
+      </BrowserRouter>
+    </Suspense>
   );
 }
 
@@ -19,7 +22,6 @@ export default function App() {
 // https://graphiste.com/blog/inspiration-site-web-tendance-webdesign
 // https://graphiste.com/blog/webdesign-tendances-2020
 // https://www.awwwards.com/websites/
-
 
 // https://getwaves.io/
 // https://www.blobmaker.app/

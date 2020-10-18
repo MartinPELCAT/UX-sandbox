@@ -6,4 +6,4 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.unstable_createRoot(document.getElementById("root")!).render(<App />);
 
-serviceWorker.unregister();
+serviceWorker.register();
