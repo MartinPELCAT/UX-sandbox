@@ -29,6 +29,6 @@ export const allPages: Page[] = [
   {
     element: <LoginPage />,
     path: "/login-page",
-    thumbnail: "hello-page-thumbnail.png",
+    thumbnail: "login-thumbnail.png",
   },
 ];
