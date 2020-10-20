@@ -26,3 +26,4 @@ export default function App() {
 // https://getwaves.io/
 // https://www.blobmaker.app/
 // https://www.eggradients.com/
+// https://www.figma.com/
