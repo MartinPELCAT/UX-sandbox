@@ -1,5 +1,7 @@
 import React, { lazy } from "react";
 import AHSAPage from "../pages/ahsa-page";
+import Animations from "../pages/animations";
+import Calendar from "../pages/calendar";
 import LoginPage from "../pages/login-page";
 
 const HelloPage = lazy(() => import("../pages/hello-page"));
@@ -30,5 +32,15 @@ export const allPages: Page[] = [
     element: <LoginPage />,
     path: "/login-page",
     thumbnail: "login-thumbnail.png",
+  },
+  {
+    element: <Animations />,
+    path: "/animations",
+    thumbnail: "animations",
+  },
+  {
+    element: <Calendar />,
+    path: "/calendar",
+    thumbnail: "calendar",
   },
 ];

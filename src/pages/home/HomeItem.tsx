@@ -14,15 +14,11 @@ export default function HomeItem({ link, thumbnail }: Props) {
           role="button"
           className="h-64 bg-white shadow-md rounded-md overflow-hidden hover:shadow-outline"
         >
-          <div
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/pages/${thumbnail})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-            className="h-full"
-          ></div>
+          <img
+            alt={thumbnail}
+            src={`${process.env.PUBLIC_URL}/pages/${thumbnail}`}
+            className="h-full object-cover bg-no-repeat object-center"
+          />
         </div>
       </Link>
     </div>
