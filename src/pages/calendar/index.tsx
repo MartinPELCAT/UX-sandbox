@@ -19,8 +19,6 @@ export default function Calendar() {
             </span>
           </div>
           <div className="h-full bg-white px-10 pb-10 flex flex-col">
-            {/* Header */}
-            {/* Calendar rows */}
             <div className="flex-1 flex rounded-md ">
               <div className="cal-day-not-month rounded-tl-xl">30</div>
               <div className="cal-day-not-month">31</div>

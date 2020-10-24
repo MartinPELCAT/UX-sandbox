@@ -41,6 +41,6 @@ export const allPages: Page[] = [
   {
     element: <Calendar />,
     path: "/calendar",
-    thumbnail: "calendar",
+    thumbnail: "calendar-thumbnail.png",
   },
 ];
