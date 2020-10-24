@@ -5,6 +5,7 @@ const combineSelectors = require("postcss-combine-duplicated-selectors");
 
 module.exports = {
   plugins: [
+    require("postcss-import"),
     tailwindcss("./tailwind.config.js"),
     require("autoprefixer"),
     require("cssnano")({

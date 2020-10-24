@@ -1,0 +1,11 @@
+.cal-day {
+    @apply w-1/7 h-full bg-white border-t border-l text-4xl text-right p-2 leading-none border-gray-300;
+}
+
+.cal-day-month {
+    @apply cal-day text-gray-500;
+}
+
+.cal-day-not-month {
+    @apply cal-day text-gray-300;
+}
