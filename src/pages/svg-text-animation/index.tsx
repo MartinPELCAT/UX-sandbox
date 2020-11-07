@@ -43,6 +43,20 @@ export default function SvgTextAnimation() {
           strokeWidth={5}
         />
       </svg>
+      <svg
+        width="849"
+        height="832"
+        viewBox="0 0 849 832"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="love"
+      >
+        <path
+          d="M141.421 265.843C219.526 187.738 346.159 187.738 424.264 265.843C502.369 187.738 629.002 187.738 707.107 265.843C785.212 343.948 785.212 470.581 707.107 548.685L424.264 831.528L141.421 548.685C63.3165 470.581 63.3165 343.948 141.421 265.843Z"
+          stroke="#FF0000"
+          strokeWidth={5}
+        />
+      </svg>
     </div>
   );
 }

@@ -33,6 +33,16 @@
     animation: fill-text 0.4s ease forwards 2.3s;
 }
 
+.love path:nth-child(1) {
+    stroke-dasharray: 2057;
+    stroke-dashoffset: 2057;
+    animation: animate-text 2s ease forwards;
+}
+
+.love {
+    animation: fill-love 0.4s ease forwards 2s;
+}
+
 @keyframes animate-text {
     to {
         stroke-dashoffset: 0;
@@ -45,5 +55,14 @@
     }
     to {
         fill: white;
+    }
+}
+
+@keyframes fill-love {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: red;
     }
 }

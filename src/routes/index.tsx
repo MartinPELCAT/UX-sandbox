@@ -28,7 +28,7 @@ export const allPages: Page[] = [
   {
     element: <AHSAPage />,
     path: "/ahsa-page",
-    thumbnail: "hello-page-thumbnail.png",
+    thumbnail: "ahsa",
   },
   {
     element: <LoginPage />,
