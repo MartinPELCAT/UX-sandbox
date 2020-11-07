@@ -17,7 +17,7 @@ export default function HomeItem({ link, thumbnail }: Props) {
           <img
             alt={thumbnail}
             src={`${process.env.PUBLIC_URL}/pages/${thumbnail}`}
-            className="h-full object-cover bg-no-repeat object-center w-full"
+            className="h-full w-full object-cover bg-no-repeat object-center"
           />
         </div>
       </Link>
